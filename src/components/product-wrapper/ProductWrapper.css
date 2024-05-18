@@ -1,0 +1,173 @@
+.wrapper__title {
+    margin: 55px 0;
+}
+
+.wrapper__title h2 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 44px 0;
+}
+
+.catalog__buton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.catalog__buton button {
+    width: 189px;
+    height: 65px;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 21px;
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(242, 246, 249);
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    transition: .5s ease-in-out;
+}
+
+.catalog__buton button:hover {
+    box-shadow: 0px 27px 40px -18px rgb(52, 91, 173);
+    background: linear-gradient(146.81deg, rgb(15, 16, 16) -11.324%, rgb(118, 0, 161) 197.105%);
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 55px auto;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 14px 0px #ddd;
+    transition: .5s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px 0 rgb(118, 0, 161);
+}
+
+.card img {
+    width: 100%;
+    max-width: 285px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #707070;
+}
+
+/* .card img:hover {} */
+
+.card h2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.price h2 {
+    /* H2 */
+    background: linear-gradient(158.12deg, rgb(35, 124, 188), rgb(97, 0, 132));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.price h3 {
+    background: linear-gradient(158.12deg, rgb(188, 35, 35), rgb(97, 0, 132));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.star h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: #525252;
+}
+
+.rating:not(:checked)>input {
+    position: absolute;
+    appearance: none;
+}
+
+.rating:not(:checked)>label {
+    float: right;
+    cursor: pointer;
+    font-size: 25px;
+    color: #666;
+}
+
+.rating:not(:checked)>label:before {
+    content: "★";
+}
+
+.rating>input:checked+label:hover,
+.rating>input:checked+label:hover~label,
+.rating>input:checked~label:hover,
+.rating>input:checked~label:hover~label,
+.rating>label:hover~input:checked~label {
+    color: #000;
+}
+
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: #000;
+}
+
+.rating>input:checked~label {
+    color: #000;
+}
