@@ -33,18 +33,21 @@ const ProductWrapper = ({ data }) => {
     ))
     return (
         <>
-            <div className="wrapper__title">
-                <h2>Каталог</h2>
-                <div className="catalog__buton">
-                    <button>SIMPLE</button>
-                    <button>SIMPLE ALCANTARA</button>
-                    <button>ADVANCED</button>
-                    <button>ADVANCED ALCANTARA</button>
+            <div className="container">
+                <div className="wrapper__title">
+                    <h2>Our Latest Product</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis nunc ipsum aliquam, ante. </p>
+                    <div className="catalog__buton">
+                        <button>SIMPLE</button>
+                        <button>SIMPLE ALCANTARA</button>
+                        <button>ADVANCED</button>
+                        <button>ADVANCED ALCANTARA</button>
 
+                    </div>
                 </div>
-            </div>
-            <div className="wrapper">
-                {productItem}
+                <div className="wrapper">
+                    {productItem}
+                </div>
             </div>
         </>
     )

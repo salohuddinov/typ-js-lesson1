@@ -1,0 +1,245 @@
+.admin {
+    display: grid;
+    grid-template-columns: 255px 1fr;
+}
+
+.admin__saidbar {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 255px;
+    height: 100vh;
+    background: rgb(54, 55, 64);
+}
+
+.admin__content {
+    height: 100%;
+    margin-left: 300px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.logo h4 {
+    color: rgb(164, 166, 179);
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: -1px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    /* sidebar / gray */
+    opacity: 0.7;
+}
+
+.saidbar__item {
+    display: flex;
+    width: 255px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transition: .3s ease-in-out;
+}
+
+.saidbar__item:hover {
+    background: rgb(159, 162, 180);
+}
+
+.saidbar__item h3 {
+    width: 159px;
+    height: 20px;
+    color: rgb(221, 226, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+
+.cont__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    height: 44px;
+    margin: 25px auto;
+}
+
+.hedr__righ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.hedr__righ h4 {
+    color: rgb(37, 39, 51);
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: right;
+}
+
+.hed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    margin: 10px auto;
+}
+
+.hed h2 {
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hed__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hed__right button {
+    width: 71.09px;
+    height: 35.5px;
+    border-radius: 5px;
+    background: rgb(16, 205, 69);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.cards {
+    margin: 55px auto;
+}
+
+.seshon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 80px;
+    width: 1030.74px;
+    height: 19.07px;
+}
+
+.seshon h4 {
+    width: 72.35px;
+    height: 19.07px;
+    color: rgb(135, 135, 135);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cont__card,
+.cardd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    height: 66px;
+    padding: 0 22px;
+    background: rgb(238, 242, 245);
+    margin: 0 auto;
+}
+
+.imgg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgg h4 {
+    width: 134.92px;
+    height: 17px;
+    color: rgb(65, 65, 65);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cont__card h5,
+.cardd h5 {
+    width: 56.92px;
+    height: 17px;
+    color: rgb(65, 65, 65);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.img__h4 {
+    width: 55.87px;
+    height: 17px;
+    color: rgb(0, 202, 57);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cont__card h6,
+.cardd h6 {
+    width: 55.87px;
+    height: 17px;
+    color: rgb(228, 64, 103);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cont__card h2,
+.cardd h2 {
+    width: 103.3px;
+    height: 17px;
+    color: rgb(65, 65, 65);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.cardd {
+    background: #fff;
+}

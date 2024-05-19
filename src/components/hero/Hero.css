@@ -1,0 +1,86 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../../image/hero1.png);
+}
+
+.hero img {
+    margin: 20px 0;
+}
+
+.hero__right h5 {
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 10%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.hero__right h2 {
+    width: 517px;
+    height: 282px;
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 99.17px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.pric {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.pric h3 {
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pric h4 {
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: line-through;
+    opacity: 0.7;
+}
+
+
+.hero__right button {
+    width: 191px;
+    height: 61px;
+    border-radius: 62px;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 73, 72);
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    transition: .3s ease-in-out;
+    border: 1px solid #fff;
+}
+
+.hero__right button:hover {
+    background: transparent;
+    color: #fff;
+}

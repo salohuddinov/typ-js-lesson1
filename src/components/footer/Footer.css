@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer__itm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+.footer__itm h3 {
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.fo__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.fo__icons button {
+    width: 50.9px;
+    height: 50.9px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 35px 0;
+}

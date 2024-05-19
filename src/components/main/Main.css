@@ -1,0 +1,90 @@
+.title {
+    width: 508px;
+    height: 101px;
+    color: rgb(24, 2, 2);
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px auto;
+}
+
+.main__left__title {
+    width: 460px;
+    height: 171px;
+    color: rgb(24, 2, 2);
+    font-family: Rubik;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 22px 0;
+}
+
+.card__right h2 {
+    /* Heading / Base */
+    color: rgb(24, 2, 2);
+    font-family: Rubik;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card__right h3 {
+    color: rgb(24, 2, 2);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.card__right button {
+    color: rgb(255, 73, 72);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    background: transparent;
+}

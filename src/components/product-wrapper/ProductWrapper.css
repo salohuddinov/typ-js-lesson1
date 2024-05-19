@@ -3,14 +3,29 @@
 }
 
 .wrapper__title h2 {
-    color: rgb(0, 0, 0);
-    font-family: Montserrat;
-    font-size: 35px;
+    color: rgb(24, 2, 2);
+    font-family: Rubik;
+    font-size: 44px;
     font-weight: 700;
-    line-height: 43px;
+    line-height: 130%;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     margin: 44px 0;
+    margin-bottom: 10px;
+}
+
+.wrapper__title p {
+    width: 557px;
+    height: 48px;
+    color: rgb(24, 2, 2);
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px auto;
+    opacity: 0.7;
 }
 
 .catalog__buton {
@@ -39,7 +54,7 @@
 
 .catalog__buton button:hover {
     box-shadow: 0px 27px 40px -18px rgb(52, 91, 173);
-    background: linear-gradient(146.81deg, rgb(15, 16, 16) -11.324%, rgb(118, 0, 161) 197.105%);
+    background: linear-gradient(45.89deg, rgb(255, 146, 146) -7.333%, rgb(222, 81, 80) 90.222%);
     color: #fff;
 }
 
